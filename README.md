@@ -1,7 +1,7 @@
 # Singtel project
 
 Project to demonstrate object modelling and instantiation
-The project has been created as a Maven project including jngunit for testi
+The project has been created as a Maven project including junit for testing
 
 Object definitions
 1. Interface Animal – Base interface extends the HelperInterfaces  deafult methods for default behaviour
