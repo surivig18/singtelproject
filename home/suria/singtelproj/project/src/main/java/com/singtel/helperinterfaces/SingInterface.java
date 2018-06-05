@@ -2,6 +2,8 @@ package com.singtel.helperinterfaces;
 
 public interface SingInterface {
 	
-	public void sing();
+	 default void sing(){
+			System.out.println("I am singing");
+		}
 
 }

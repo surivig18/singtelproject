@@ -1,19 +1,11 @@
 package com.singtel.domain;
 
+import com.singtel.helperinterfaces.FlyInterface;
 import com.singtel.helperinterfaces.SingInterface;
+import com.singtel.helperinterfaces.SwimInterface;
 
-public interface Animal extends SingInterface {
+public interface Animal extends SingInterface,SwimInterface,FlyInterface {
 	 default void walk(){
 		System.out.println("I am walking");
 	}
-	 default void fly(){
-			System.out.println("I am flying");
-		}
-	 @Override
-	 default void sing(){
-			System.out.println("I am singing");
-		}
-	 default void swim(){
-		 System.out.println("I am swimming");
-	 }
 }
