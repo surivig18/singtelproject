@@ -47,11 +47,7 @@ public class Solution {
 				 typeofanimal = sc.next();
 			fish = (Fish) getAnimalInstance(inputAnimal,typeofanimal);
 		}
-		if(AnimalConstants.BIRD.equalsIgnoreCase(inputAnimal)){
-			System.out.println("Enter type of Bird:");
-				 typeofanimal = sc.next();
-			bird = (Bird) getAnimalInstance(inputAnimal,typeofanimal);
-		}
+		
 		if(AnimalConstants.DOLPHIN.equalsIgnoreCase(inputAnimal)){
 			dolphin = returnDolphinInstance();
 		}
